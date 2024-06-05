@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Compiled output
+dist/
+*.js
+*.js.map
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+*.env
+
+# IDE and editor specific files
+.idea/
+.vscode/
+
+# Compiled CSS
+*.css
+
+# Angular CLI configuration
+.angular.json
+
+# Node package manager configuration
+.npmrc
+
+# Editor backup files
+*~
+
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore pipenv
+Pipfile
+Pipfile.lock
+
+.vscode/
+
