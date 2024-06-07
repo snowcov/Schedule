@@ -1,12 +1,5 @@
-<main>
-  <head>
-    <link rel="stylesheet" href="app.component.css">
-  </head>
-  <div class="selection">
-    <a class="active" href="#rl">Rocket League</a>
-    <a href="#lol">LOL</a>
-    <a href="#cs2">CS2</a>
-  </div>
-</main>
-
-<router-outlet />
+<div [class.dark-mode]="darkMode">
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
+  <!-- Your application content here -->
+</div>

@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone:true
 })
 export class AppComponent {
-  title = 'my-angular-app';
+  darkMode = false;
+
+  toggleDarkMode() {
+    this.darkMode = !this.darkMode;
+    // Implement logic to toggle dark mode for the entire application
+  }
 }

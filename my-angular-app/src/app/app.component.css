@@ -1,27 +1,6 @@
-.selection{
-    background-color: #ffffff;
-    overflow:hidden;
-
-}
-
-.selection a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 25px;
-  }
-
-.selection a:hover {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    border-radius: 25px;
+ .content {
+    padding: 16px;
+    background-color: #303030;
+    color: white;
   }
   
-  /* Add a color to the active/current link */
-.selection a.active {
-    background-color: #c47a26;
-    color: rgb(0, 0, 0);
-  }
