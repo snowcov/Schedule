@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.scss */
+
+body, .navbar {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+  }
+  
+  .dark-mode {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+  }
+  
