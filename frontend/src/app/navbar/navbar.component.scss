@@ -1,0 +1,50 @@
+/* src/app/navbar/navbar.component.scss */
+$light-bg-color: #fff;
+$light-text-color: #000;
+$dark-bg-color: #333;
+$dark-text-color: #fff;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: $light-bg-color;
+  color: $light-text-color;
+  transition: background-color 0.3s, color 0.3s;
+
+  &.dark-mode {
+    background-color: $dark-bg-color;
+    color: $dark-text-color;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    li {
+      a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .toggle-darkmode {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    font-size: 1rem;
+  }
+}
